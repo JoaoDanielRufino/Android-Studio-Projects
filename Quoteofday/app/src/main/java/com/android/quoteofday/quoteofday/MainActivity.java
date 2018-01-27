@@ -11,14 +11,18 @@ public class MainActivity extends AppCompatActivity {
     private int pos_quote = 1;
     private TextView quote;
     private Button new_quote;
-    private String quotes[] = {
-            "Our entire life - consists ultimately in accepting ourselves as we are.",
-            "Life is 10% what happens to you and 90% how you react to it.",
-            "It does not matter how slowly you go as long as you do not stop.",
-            "If you can dream it, you can do it.",
-            "Don't think, just do.",
-            "Well done is better than well said."
-    };
+    private String quotes[];
+
+    public MainActivity() {
+        quotes = new String[]{
+                "Our entire life - consists ultimately in accepting ourselves as we are.",
+                "Life is 10% what happens to you and 90% how you react to it.",
+                "It does not matter how slowly you go as long as you do not stop.",
+                "If you can dream it, you can do it.",
+                "Don't think, just do.",
+                "Well done is better than well said."
+        };
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
