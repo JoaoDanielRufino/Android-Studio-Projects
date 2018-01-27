@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         new_quote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                quote.setText(quotes[pos_quote%6]);
+                quote.setText(quotes[pos_quote%quotes.length]);
                 pos_quote++;
             }
         });
