@@ -34,7 +34,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
-        android:text="Each person choose a number, wins who most approach the random number."
+        android:text="Each person choose a number between 0 and 10, wins who most approach the random number."
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
