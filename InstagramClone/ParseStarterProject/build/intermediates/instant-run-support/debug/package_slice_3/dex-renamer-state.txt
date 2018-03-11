@@ -1,0 +1,4 @@
+#Sat Mar 10 23:50:49 BRT 2018
+base.0=C\:\\AndroidStudioProjects\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\22
+renamed.0=classes.dex
+file.0=C\:\\AndroidStudioProjects\\InstagramClone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\22\\classes.dex
